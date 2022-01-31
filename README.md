@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of emmregextract is to ...
+The goal of emmregextract is to extract a selection of surveys from the EMM Survey Registry (https://ethmigsurveydatahub.eu/), and export an Excel file formatted in the same way as the internal Excel files.
 
 ## Installation
 
@@ -29,6 +29,8 @@ emm_extract("https://registry.ethmigsurveydatahub.eu/surveys/2870")
 list<-c("https://registry.ethmigsurveydatahub.eu/surveys/2870","https://registry.ethmigsurveydatahub.eu/surveys/2872","not_a_valid_url")
 
 emm_extract(list)
+
+#the output file in xlsx is created in the working directory.
 
 ```
 
