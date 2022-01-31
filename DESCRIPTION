@@ -1,0 +1,21 @@
+Package: emmregextract
+Title: Extraction of surveys from EMM survey registry
+Version: 0.0.0.9000
+Authors@R: 
+    person("Yuma", "ANDO", , "yuma.ando@sciencespo.fr", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-9944-4327"))
+Description: This package helps users to extract a selection of surveys from EMM Survey Registry (https://ethmigsurveydatahub.eu/emmregistry/). The extracted files will be extracted in an excel file, formatted in the same way as the template and internal entry excel files.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    xlsx,
+    rvest,
+    stringr
+Depends: 
+    R (>= 2.10)
