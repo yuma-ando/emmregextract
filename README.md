@@ -6,6 +6,9 @@
 
 The goal of emmregextract is to extract a selection of surveys from the EMM Survey Registry (https://ethmigsurveydatahub.eu/), and export an Excel file formatted in the same way as the internal Excel files.
 
+## Author
+Ando, Yuma, assistant statisticien au Centre d'études européennes et de politique comparées (UMR8239, Sciences Po/CNRS)
+
 ## Installation
 
 You can install the development version of emmregextract from [GitHub](https://github.com/) with:
